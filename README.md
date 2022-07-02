@@ -6,11 +6,14 @@ Para jogar e ver o código em funcionamento, você pode acessar:
 
 https://jrodrigues.shinyapps.io/2020_MEMORIA_RSS/
 
-Ou se quiser roda-lo mais rapido, diretamente no console do seu RStudio com o comando:
-
+Ou se quiser roda-lo mais rapido, diretamente no console do seu RStudio com o código:
+ 
+ ```{r}
 shiny::runGitHub(repo = "JRodrigues27/MEMORIA_GRSS")
-
+```
 
 Esse jogo foi criado à partir do projeto elaborado originalmente e disponível em:
 
 https://github.com/dreamRs/memory-hex
+
+Depois de jogar e ver o código, espero que te inspire a fazer outros jogos utilizando o R e o pacote Shiny!
